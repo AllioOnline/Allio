@@ -227,7 +227,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #656565;
+    color:white;
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;
@@ -294,7 +294,7 @@ a:hover, a:active, a:focus {
 #home .overlay {
   background: #4776E6; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -316,7 +316,7 @@ a:hover, a:active, a:focus {
 
 #home p,
 #newsletter p {
-  color: #f0f0f0;
+  color: #1c1c1c;
   letter-spacing: 1px;
 }
 
@@ -887,4 +887,9 @@ footer p {
     font-size: 16px;
   }
 
+}
+/*   Custom Css */
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+  background-color: #1c1c1c !important;
 }
