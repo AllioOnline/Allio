@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  color: #f0f0f0;
+  color:black;;
   font-size: 32px;
 }
 
@@ -321,7 +321,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .section-btn {
-  background: #1dc9e3;
+  background: black
 }
 
 #home .section-btn:hover {
@@ -334,7 +334,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #divider {
-  background-color: #1dc9e3;
+  background-color: white;
 }
 
 #divider p {
